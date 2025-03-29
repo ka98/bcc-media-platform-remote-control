@@ -1,0 +1,3 @@
+[submodule "Chrome.ahk"]
+	path = Chrome.ahk
+	url = https://github.com/ka98/Chrome.ahk.git
