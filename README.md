@@ -16,9 +16,11 @@ git submodule update --init --recursive
 
 Open a Chrome instance with the parameter `--remote-debugging-port=9222`
 
-Open the bcc-media webpage, it is important that the Tab starts with the title `"BCC Media"`
+Open the two bcc-media webpage with a video within it, it is important that the Tab starts with the title `"BCC Media"`
 
-Then start the Script, it will programatically click the `Play` button on the first two BCC-Media Webpages it finds
+Then start the script, it will open a window with a playpause button, click it will invoke a button click on both webpages
+
+This window will also show the remaining time of the last opened window 
 
 ## Contributing
 
